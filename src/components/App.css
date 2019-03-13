@@ -1,4 +1,8 @@
 /*Global Styling*/
+.container {
+	padding: 10px;
+}
+
 .no-left-padding {
 	padding-left: 0;
 }
@@ -15,9 +19,10 @@
 
 /*App Component*/
 .jumbotron {
+	background-color: #fff;
+	border: 1px solid #e9ecef;
 	height: 15vh;
-	color: #0d397f;
-	margin: 10px 0;
+	color: #707070;
 }
 
 /*Categories List Component*/
@@ -49,36 +54,32 @@
 
 .cnn {
 	color: red;
-	border: 1px solid red;
+	border: 1px solid #e9ecef;
 }
 
 .fox {
-	color: #fff;
-	border: 1px solid #0d397f;
-	background: #0d397f;
+	color: #0d397f;
+	border: 1px solid #e9ecef;
 }
 
 .bbc {
-	color: #fff;
-	border: 1px solid #f24444;
-	background: #f24444;
+	color: #f24444;
+	border: 1px solid #e9ecef;
 }
 
 .nyt {
-	color: #fff;
-	border: 1px solid #333;
-	background: #333;
+	color: #333;
+	border: 1px solid #e9ecef;
 }
 
 .alj {
-	color: #fff;
-	border: 1px solid #ff7532;
-	background: #ff7532;
+	color: #ff7532;
+	border: 1px solid #e9ecef;
 }
 
 .esat {
 	color: #0d6433;
-	border: 1px solid #0d6433;
+	border: 1px solid #e9ecef;
 }
 
 /*News Detail*/
@@ -90,16 +91,25 @@
 
 .news-list h3 {
 	height: 7vh;
-	color: #0d397f;
-	border: 1px solid grey;
+	color: #707070;
+	border: 1px solid #e9ecef;
 }
 
 .ui.list:last-child {
-	margin-top: 10px;
+	margin: 10px 0;
 }
 
 /*News Item*/
 .video-item {
 	cursor: pointer;
 	text-align: center;
+}
+
+.video-item img {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.relaxed .video-item:first-child img {
+	width: auto;
 }

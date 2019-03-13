@@ -34,7 +34,7 @@ class App extends React.Component {
 			<div className="container">
 
 				<div className="jumbotron align-center">
-					<h1>World News Forum</h1>
+					<h1>NewsFix</h1>
 				</div>
 
 				<div className="row">
