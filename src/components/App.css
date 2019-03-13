@@ -17,7 +17,7 @@
 .jumbotron {
 	height: 15vh;
 	color: #0d397f;
-	margin: 10px 5px 10px 5px;
+	margin: 10px 0;
 }
 
 /*Categories List Component*/
@@ -83,8 +83,7 @@
 
 /*News Detail*/
 .news-detail {
-	height: 50vh;
-	padding: 10px 5px;
+	padding: 10px 0;
 }
 
 /*News List*/
