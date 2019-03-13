@@ -21,7 +21,7 @@ class App extends React.Component {
 
 		this.setState({ 
 			videos: response.data.items, 
-			selectedVideo: response.data.items[1]  
+			selectedVideo: response.data.items[2]  
 		});
 	};
 
