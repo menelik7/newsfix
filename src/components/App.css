@@ -101,4 +101,5 @@
 /*News Item*/
 .video-item {
 	cursor: pointer;
+	text-align: center;
 }
