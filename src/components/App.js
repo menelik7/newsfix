@@ -38,7 +38,7 @@ class App extends React.Component {
 				</div>
 
 				<div className="row">
-					<div className="col-12 col-lg-8" style={{ height: '65vh' }}>
+					<div className="col-12 col-lg-8">
 						<CategoriesList onButtonClick={this.onTermSubmit}/>
 						<NewsDetail video={this.state.selectedVideo} />
 					</div>

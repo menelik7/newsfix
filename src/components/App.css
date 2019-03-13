@@ -14,7 +14,7 @@
 }
 
 .ui.segment:last-child {
-	margin-top: 5px;
+	margin: 5px 0 10px 0px;
 }
 
 /*App Component*/
@@ -23,6 +23,7 @@
 	border: 1px solid #e9ecef;
 	height: 15vh;
 	color: #707070;
+	margin-bottom: 10px;
 }
 
 /*Categories List Component*/
