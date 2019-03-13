@@ -1,0 +1,98 @@
+/*Global Styling*/
+.no-left-padding {
+	padding-left: 0;
+}
+
+.align-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ui.segment:last-child {
+	margin-top: 5px;
+}
+
+/*App Component*/
+.jumbotron {
+	color: #0d397f;
+	margin: 0 5px 10px 5px;
+}
+
+/*Categories List Component*/
+.categories-list {
+	height: 7vh;
+	padding: 0;
+}
+
+.categories-list .row {
+	height: 100%;
+	padding: 0 15px;
+}
+
+/*Category Item*/
+.category-item {
+	padding: 0 5px;
+	cursor: pointer;
+}
+
+.CNN,
+.FOX,
+.BBC,
+.NYT,
+.ALJ,
+.ESAT {
+	height: 100%;
+	font-weight: bold;
+}
+
+.CNN {
+	color: red;
+	border: 1px solid red;
+}
+
+.FOX {
+	color: #fff;
+	border: 1px solid #0d397f;
+	background: #0d397f;
+}
+
+.BBC {
+	color: #fff;
+	border: 1px solid #f24444;
+	background: #f24444;
+}
+
+.NYT {
+	color: #fff;
+	border: 1px solid #333;
+	background: #333;
+}
+
+.ALJ {
+	color: #fff;
+	border: 1px solid #ff7532;
+	background: #ff7532;
+}
+
+.ESAT {
+	color: #0d6433;
+	border: 1px solid #0d6433;
+}
+
+/*News Detail*/
+.news-detail {
+	height: 50vh;
+	padding: 10px 5px;
+}
+
+/*News List*/
+.news-list {
+	height: 57vh;
+	padding: 0;
+}
+
+.news-list h3 {
+	height: 7vh;
+	color: #0d397f;
+}
