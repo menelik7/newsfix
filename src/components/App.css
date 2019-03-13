@@ -15,8 +15,9 @@
 
 /*App Component*/
 .jumbotron {
+	height: 15vh;
 	color: #0d397f;
-	margin: 0 5px 10px 5px;
+	margin: 10px 5px 10px 5px;
 }
 
 /*Categories List Component*/
@@ -36,46 +37,46 @@
 	cursor: pointer;
 }
 
-.CNN,
-.FOX,
-.BBC,
-.NYT,
-.ALJ,
-.ESAT {
+.cnn,
+.fox,
+.bbc,
+.nyt,
+.alj,
+.esat {
 	height: 100%;
 	font-weight: bold;
 }
 
-.CNN {
+.cnn {
 	color: red;
 	border: 1px solid red;
 }
 
-.FOX {
+.fox {
 	color: #fff;
 	border: 1px solid #0d397f;
 	background: #0d397f;
 }
 
-.BBC {
+.bbc {
 	color: #fff;
 	border: 1px solid #f24444;
 	background: #f24444;
 }
 
-.NYT {
+.nyt {
 	color: #fff;
 	border: 1px solid #333;
 	background: #333;
 }
 
-.ALJ {
+.alj {
 	color: #fff;
 	border: 1px solid #ff7532;
 	background: #ff7532;
 }
 
-.ESAT {
+.esat {
 	color: #0d6433;
 	border: 1px solid #0d6433;
 }
@@ -87,12 +88,18 @@
 }
 
 /*News List*/
-.news-list {
-	height: 57vh;
-	padding: 0;
-}
 
 .news-list h3 {
 	height: 7vh;
 	color: #0d397f;
+	border: 1px solid grey;
+}
+
+.ui.list:last-child {
+	margin-top: 10px;
+}
+
+/*News Item*/
+.video-item {
+	cursor: pointer;
 }

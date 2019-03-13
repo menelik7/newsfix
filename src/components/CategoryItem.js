@@ -1,10 +1,10 @@
 import React from 'react';
 
-const CategoryItem = ({ title }) => {
+const CategoryItem = ({ title, onButtonClick }) => {
 	return (
-		<div className="col-2 category-item align-center">
+		<div onClick={() => onButtonClick(title)} className="col-2 category-item align-center">
 			<div className={`col-12 ${title} align-center`}>
-				{title}
+				{title.toUpperCase()}
 			</div>
 		</div>
 	);
